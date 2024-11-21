@@ -1,8 +1,12 @@
 const container = document.getElementById("container");
+const headline = document.querySelector(".header-img");
 const imageOne = document.querySelector(".image-1");
 const imageTwo = document.querySelector(".image-2");
 const btnYes = document.querySelector(".btn-yes");
 const btnNo = document.querySelector(".btn-no");
+const yayMessage = document.querySelector("#yay-text"); // Updated id
+const descriptor = document.querySelector("#description");
+
 
 function getRandomNumber(min, max) {
   // Calculate the random number between min and max (inclusive)
@@ -37,4 +41,8 @@ btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
   imageOne.classList.add("hide");
   imageTwo.classList.remove("hide");
+  headline.classList.add("hide");
+  yayMessage.classList.remove("hide");
+  descriptor.classList.remove("hide");
 });
+
