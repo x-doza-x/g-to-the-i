@@ -12,7 +12,7 @@ body {
   padding: 2rem;
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(to right bottom, #cffafe, #22d3ee);
+  background-image: linear-gradient(to right bottom, #cffafe, #f03bd2);
   display: flex;
   flex-direction: column;
 }
@@ -81,3 +81,22 @@ body {
   transition: all 0.5s ease;
   z-index: 2;
 }
+
+#yay-text {
+    text-align: center;
+    font-size: 44px;
+    color: whitesmoke;
+    margin-top: 50px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+
+#description {
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+    padding-top: 10px;
+  }
